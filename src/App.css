@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  background-image: linear-gradient(
+    to right top,
+    #edaff8,
+    #d6b3fd,
+    #bfb6fd,
+    #a9b9fa,
+    #96baf4
+  );
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Popis {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.ListaImena {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ListaImena li {
+  margin: 8px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.UserCount {
+  font-size: 20px;
+  margin-top: 15px;
 }

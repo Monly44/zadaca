@@ -1,0 +1,67 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  color: #333333e3;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.644);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25),
+    -4px -4px 10px rgba(255, 255, 255, 0.357);
+  transition: box-shadow 0.3s ease;
+}
+
+button:hover {
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.256),
+    -5px -5px 12px rgba(255, 255, 255, 0.456);
+}
+
+button:active {
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.316),
+    -6px -6px 12px rgba(255, 255, 255, 0.522);
+}
+
+.input-field {
+  font-size: 16px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.739);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25),
+    -4px -4px 10px rgba(255, 255, 255, 0.357);
+  transition: box-shadow 0.3s ease;
+}
+
+.input-field:hover {
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.256),
+    -5px -5px 12px rgba(255, 255, 255, 0.456);
+}
+
+.input-field:focus {
+  outline: none;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.316),
+    -6px -6px 12px rgba(255, 255, 255, 0.522);
+}
+
+.error-message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #3333339d;
+  text-align: center;
+}
